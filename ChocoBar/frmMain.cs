@@ -345,7 +345,10 @@ namespace ChocoBar
                 btn.MouseDown += MyButton_MouseDown;
                 btn.MouseUp += MyButton_MouseUp;
                 btn.MouseMove += MyButton_MouseMove;
-                btn.MouseLeave += MyButton_MouseLeave;
+                btn.MouseLeave += MyButton_MouseLeave;  
+                btn.DragOver += MyButton_DragOver;
+                btn.DragDrop += MyButton_DragDrop;
+
 
                 this.Controls.Add(btn);
 
@@ -386,14 +389,15 @@ namespace ChocoBar
         }
 
 
-        MyButton _draggedButton = null;
+        MyButton _draggedButton = null; 
 
         private void MyButton_MouseDown(object sender, MouseEventArgs e)
         {
-            if(e.Button != MouseButtons.Left)
-            {
-                return;
-            }
+            //if(e.Button != MouseButtons.Left)
+            //{
+            //    return;
+            //}
+            _draggedButton = null;
 
             var btn = (MyButton)sender;
 
@@ -407,9 +411,11 @@ namespace ChocoBar
             }
             else
             {
-                _draggedButton = btn;
-                btn.DoDragDrop(btn, DragDropEffects.Move);
-                
+                if(e.Button == MouseButtons.Right)
+                {
+                    _draggedButton = btn;
+                    btn.DoDragDrop(btn, DragDropEffects.Move);
+                }
             }
         }
 
@@ -473,12 +479,6 @@ namespace ChocoBar
 
         }
 
-
-        private void MyButton_DragLeave(object sender, EventArgs e)
-        {
-            //_btnMenu.Text = "lft";
-        }
-
         private void MyButton_DragDrop(object sender, DragEventArgs e)
         {
             e.Effect = DragDropEffects.None;
@@ -503,19 +503,11 @@ namespace ChocoBar
                
             }
 
-            
         }
 
         private void MyButton_DragOver(object sender, DragEventArgs e)
         {
             e.Effect = DragDropEffects.Move;
-            //_btnMenu.Text = "ovr";
-        }
-
-        private void MyButton_DragEnter(object sender, DragEventArgs e)
-        {
-            e.Effect = DragDropEffects.Move;
-            //_btnMenu.Text = "ntr";
         }
 
 
@@ -608,10 +600,8 @@ namespace ChocoBar
 
                 btn.AllowDrop = true;
                
-                btn.DragEnter += MyButton_DragEnter;
                 btn.DragOver += MyButton_DragOver;
                 btn.DragDrop += MyButton_DragDrop;
-                btn.DragLeave += MyButton_DragLeave;
                 
 
                 this.Controls.Add(btn);
