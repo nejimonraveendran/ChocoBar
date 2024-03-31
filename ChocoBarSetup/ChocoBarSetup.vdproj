@@ -401,7 +401,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ChocoBar, Version=1.0.0.1, Culture=neutral, processorArchitecture=AMD64"
+            "AssemblyAsmDisplayName" = "8:ChocoBar, Version=1.0.3.0, Culture=neutral, processorArchitecture=AMD64"
                 "ScatterAssemblies"
                 {
                     "_5EB23977527544AF870440E750D6CB40"
@@ -841,15 +841,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ChocoBar"
-        "ProductCode" = "8:{AE2653EA-D9CA-4811-A80B-DEF7FBC43CF4}"
-        "PackageCode" = "8:{808366EB-41D4-4F7D-A435-E04FC8D2082D}"
+        "ProductCode" = "8:{63D9E965-6813-4189-B495-4B5667B7B321}"
+        "PackageCode" = "8:{0CC7E8E1-421E-4A71-A091-159FAC175954}"
         "UpgradeCode" = "8:{7D9BB1F5-F1D6-43DA-9580-6ACC7C8CD5D3}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.2"
+        "ProductVersion" = "8:1.0.3"
         "Manufacturer" = "8:MyRealm"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

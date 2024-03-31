@@ -393,10 +393,6 @@ namespace ChocoBar
 
         private void MyButton_MouseDown(object sender, MouseEventArgs e)
         {
-            //if(e.Button != MouseButtons.Left)
-            //{
-            //    return;
-            //}
             _draggedButton = null;
 
             var btn = (MyButton)sender;
@@ -411,7 +407,7 @@ namespace ChocoBar
             }
             else
             {
-                if(e.Button == MouseButtons.Right)
+                if(Control.ModifierKeys == Keys.Control )
                 {
                     _draggedButton = btn;
                     btn.DoDragDrop(btn, DragDropEffects.Move);
