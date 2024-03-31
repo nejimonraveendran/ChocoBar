@@ -15,6 +15,18 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_1B08E601C4D139223CA20061D4A7324D"
+        "OwnerKey" = "8:_B01D18770BC19D0F12676D71CAC7383F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1B08E601C4D139223CA20061D4A7324D"
+        "OwnerKey" = "8:_66AF1A8B43B2458AA559AA894A357738"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_37EF85FD919446A38CDDBC9D3DE4576E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -51,6 +63,42 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_68E4874A0BD8CD131D5814C3544A3EE2"
+        "OwnerKey" = "8:_5EB23977527544AF870440E750D6CB40"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6D16A8F1A8E3BCEE3E10657C0BC93CB6"
+        "OwnerKey" = "8:_5EB23977527544AF870440E750D6CB40"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6D16A8F1A8E3BCEE3E10657C0BC93CB6"
+        "OwnerKey" = "8:_F2651CB1545B409D86C3C8A5361931E0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6D16A8F1A8E3BCEE3E10657C0BC93CB6"
+        "OwnerKey" = "8:_66AF1A8B43B2458AA559AA894A357738"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6D16A8F1A8E3BCEE3E10657C0BC93CB6"
+        "OwnerKey" = "8:_1B08E601C4D139223CA20061D4A7324D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6D16A8F1A8E3BCEE3E10657C0BC93CB6"
+        "OwnerKey" = "8:_B01D18770BC19D0F12676D71CAC7383F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_741BAD80F47349298668D088D729E103"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -75,6 +123,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_B01D18770BC19D0F12676D71CAC7383F"
+        "OwnerKey" = "8:_5EB23977527544AF870440E750D6CB40"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B3838882F9E84DA2AAA70F7814D507F2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -83,18 +137,6 @@
         {
         "MsmKey" = "8:_B7DDE99DC0BB46E085063BDA9033B43B"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C5D296F45D1848AEBF37859CC301F17A"
-        "OwnerKey" = "8:_EC972860FE9A5FEE950EA46D57F559A3"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C5D296F45D1848AEBF37859CC301F17A"
-        "OwnerKey" = "8:_66AF1A8B43B2458AA559AA894A357738"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -111,62 +153,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_EB607135E2D461124FC20838F231CD86"
-        "OwnerKey" = "8:_5EB23977527544AF870440E750D6CB40"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EC972860FE9A5FEE950EA46D57F559A3"
-        "OwnerKey" = "8:_5EB23977527544AF870440E750D6CB40"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_F2651CB1545B409D86C3C8A5361931E0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F8CEFB5C6C636569DC146E33A1A967BE"
-        "OwnerKey" = "8:_5EB23977527544AF870440E750D6CB40"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F8CEFB5C6C636569DC146E33A1A967BE"
-        "OwnerKey" = "8:_66AF1A8B43B2458AA559AA894A357738"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F8CEFB5C6C636569DC146E33A1A967BE"
-        "OwnerKey" = "8:_F2651CB1545B409D86C3C8A5361931E0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F8CEFB5C6C636569DC146E33A1A967BE"
-        "OwnerKey" = "8:_C5D296F45D1848AEBF37859CC301F17A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F8CEFB5C6C636569DC146E33A1A967BE"
-        "OwnerKey" = "8:_EC972860FE9A5FEE950EA46D57F559A3"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_5EB23977527544AF870440E750D6CB40"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_66AF1A8B43B2458AA559AA894A357738"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -190,25 +184,31 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EB607135E2D461124FC20838F231CD86"
+        "OwnerKey" = "8:_66AF1A8B43B2458AA559AA894A357738"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EC972860FE9A5FEE950EA46D57F559A3"
+        "OwnerKey" = "8:_68E4874A0BD8CD131D5814C3544A3EE2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C5D296F45D1848AEBF37859CC301F17A"
+        "OwnerKey" = "8:_B01D18770BC19D0F12676D71CAC7383F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F8CEFB5C6C636569DC146E33A1A967BE"
+        "OwnerKey" = "8:_1B08E601C4D139223CA20061D4A7324D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_6D16A8F1A8E3BCEE3E10657C0BC93CB6"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -306,6 +306,37 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1B08E601C4D139223CA20061D4A7324D"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Accord.Video, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_1B08E601C4D139223CA20061D4A7324D"
+                    {
+                    "Name" = "8:Accord.Video.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Accord.Video.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_10D34F228B554C46A8FDF02A6D7ED386"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_37EF85FD919446A38CDDBC9D3DE4576E"
             {
             "SourcePath" = "8:..\\ChocoBar\\bin\\x64\\Release\\avdevice-57.dll"
@@ -459,6 +490,68 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_68E4874A0BD8CD131D5814C3544A3EE2"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_68E4874A0BD8CD131D5814C3544A3EE2"
+                    {
+                    "Name" = "8:Newtonsoft.Json.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Newtonsoft.Json.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_10D34F228B554C46A8FDF02A6D7ED386"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6D16A8F1A8E3BCEE3E10657C0BC93CB6"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Accord, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_6D16A8F1A8E3BCEE3E10657C0BC93CB6"
+                    {
+                    "Name" = "8:Accord.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Accord.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_10D34F228B554C46A8FDF02A6D7ED386"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_741BAD80F47349298668D088D729E103"
             {
             "AssemblyRegister" = "3:1"
@@ -550,6 +643,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B01D18770BC19D0F12676D71CAC7383F"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Accord.Video.FFMPEG.x64, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_B01D18770BC19D0F12676D71CAC7383F"
+                    {
+                    "Name" = "8:Accord.Video.FFMPEG.x64.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Accord.Video.FFMPEG.x64.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_10D34F228B554C46A8FDF02A6D7ED386"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B3838882F9E84DA2AAA70F7814D507F2"
             {
             "SourcePath" = "8:..\\ChocoBar\\bin\\x64\\Release\\avfilter-6.dll"
@@ -588,37 +712,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C5D296F45D1848AEBF37859CC301F17A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Accord.Video, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_C5D296F45D1848AEBF37859CC301F17A"
-                    {
-                    "Name" = "8:Accord.Video.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Accord.Video.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_10D34F228B554C46A8FDF02A6D7ED386"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CF0CF373282C4F8C99D97D60D7BC81C9"
@@ -661,68 +754,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EB607135E2D461124FC20838F231CD86"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_EB607135E2D461124FC20838F231CD86"
-                    {
-                    "Name" = "8:Newtonsoft.Json.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Newtonsoft.Json.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_10D34F228B554C46A8FDF02A6D7ED386"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EC972860FE9A5FEE950EA46D57F559A3"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Accord.Video.FFMPEG.x64, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=AMD64"
-                "ScatterAssemblies"
-                {
-                    "_EC972860FE9A5FEE950EA46D57F559A3"
-                    {
-                    "Name" = "8:Accord.Video.FFMPEG.x64.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Accord.Video.FFMPEG.x64.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_10D34F228B554C46A8FDF02A6D7ED386"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F2651CB1545B409D86C3C8A5361931E0"
             {
             "AssemblyRegister" = "3:1"
@@ -752,37 +783,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F8CEFB5C6C636569DC146E33A1A967BE"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Accord, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_F8CEFB5C6C636569DC146E33A1A967BE"
-                    {
-                    "Name" = "8:Accord.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Accord.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_10D34F228B554C46A8FDF02A6D7ED386"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
         }
@@ -841,15 +841,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ChocoBar"
-        "ProductCode" = "8:{92FEFE2D-34AC-4220-8C3E-9313F18EF1EF}"
-        "PackageCode" = "8:{83338440-E621-4E82-A6DB-BEFECED61097}"
+        "ProductCode" = "8:{AE2653EA-D9CA-4811-A80B-DEF7FBC43CF4}"
+        "PackageCode" = "8:{808366EB-41D4-4F7D-A435-E04FC8D2082D}"
         "UpgradeCode" = "8:{7D9BB1F5-F1D6-43DA-9580-6ACC7C8CD5D3}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
+        "ProductVersion" = "8:1.0.2"
         "Manufacturer" = "8:MyRealm"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

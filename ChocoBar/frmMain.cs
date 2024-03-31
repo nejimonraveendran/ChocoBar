@@ -385,8 +385,16 @@ namespace ChocoBar
 
         }
 
+
+        MyButton _draggedButton = null;
+
         private void MyButton_MouseDown(object sender, MouseEventArgs e)
         {
+            if(e.Button != MouseButtons.Left)
+            {
+                return;
+            }
+
             var btn = (MyButton)sender;
 
             if (_btnResizeInfo.CanResize)
@@ -396,6 +404,12 @@ namespace ChocoBar
                 _btnResizeInfo.IsResizing = true;
                 _btnResizeInfo.PrevPoint = e.Location;
 
+            }
+            else
+            {
+                _draggedButton = btn;
+                btn.DoDragDrop(btn, DragDropEffects.Move);
+                
             }
         }
 
@@ -431,6 +445,7 @@ namespace ChocoBar
             }
 
 
+
             _btnResizeInfo.CanResize = false;
             _btnResizeInfo.IsResizing = false;
             _btnResizeInfo.Direction = ResizeDirection.None;
@@ -456,6 +471,51 @@ namespace ChocoBar
                 //}
             }
 
+        }
+
+
+        private void MyButton_DragLeave(object sender, EventArgs e)
+        {
+            //_btnMenu.Text = "lft";
+        }
+
+        private void MyButton_DragDrop(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.None;
+
+            if (_draggedButton != null)
+            {
+                var curButton = (MyButton)sender;
+
+                if (curButton != null && _draggedButton != curButton)
+                {
+                    
+                    _draggedButton.Top = curButton.Top;
+                    curButton.Top = curButton.Top + 1;
+
+                    reArrangeButtons();
+                    
+                    this.Refresh();
+                    _configChanged = true;
+                }
+
+                _draggedButton = null;
+               
+            }
+
+            
+        }
+
+        private void MyButton_DragOver(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Move;
+            //_btnMenu.Text = "ovr";
+        }
+
+        private void MyButton_DragEnter(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Move;
+            //_btnMenu.Text = "ntr";
         }
 
 
@@ -545,11 +605,21 @@ namespace ChocoBar
                 btn.MouseMove += MyButton_MouseMove;
                 btn.MouseLeave += MyButton_MouseLeave;
 
+
+                btn.AllowDrop = true;
+               
+                btn.DragEnter += MyButton_DragEnter;
+                btn.DragOver += MyButton_DragOver;
+                btn.DragDrop += MyButton_DragDrop;
+                btn.DragLeave += MyButton_DragLeave;
+                
+
                 this.Controls.Add(btn);
 
             }
 
         }
+
 
 
         private bool saveProfile(string profileName)
@@ -1094,6 +1164,7 @@ namespace ChocoBar
         {
 
             var myButtons = this.Controls.OfType<MyButton>().OrderBy(b => b.Top).Distinct().ToList();
+            //var myButtons = this.Controls.OfType<MyButton>().OrderBy(b => this.Controls.GetChildIndex(b)).ToList();
 
             for (int i = 0; i < myButtons.Count; i++)
             {
