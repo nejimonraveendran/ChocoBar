@@ -11,7 +11,7 @@ Download the installable MSI Setup Package:
 - Whenever I needed to execute an app functionality, I would invoke it by touching the button or tapping it with the stylus (eg. changing brush size, undo/redo, choose color palette, etc).
 - Additionally, I could also make timelapse videos of my ongoing work using the tool application window/screen recording functionality.  The captures will be saved as mp4 videos onto the disk.  
 
- Even though this app was created for specific art workflow goals in mind, it can be used for any other similar scenarios. For ease of use, a readily installable MSI setup package is also included.  If you decide to use the MSI package, please use it at your own risk, because I do not want to issue a digital certificate, etc., for an open-source project such as this one.
+ Even though this app was created with specific art workflow goals in mind, it can be used for any other similar scenarios. For ease of use, a readily installable MSI setup package is also included.  If you decide to use the MSI package, please use it at your own risk, because I do not want to issue a digital certificate, etc., for an open-source project such as this one.
 
 The project is written in C#.NET and certain parts in C++. For the Windows toolbar functionality, the project makes calls to a number of underlying Win32 API functions. The core desktop toolbar functionality is achieved using Win32 AppBar API functions.  Here are the main features of the tool:
 - Map keyboard shortcuts to buttons.
